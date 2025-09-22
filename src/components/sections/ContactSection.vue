@@ -30,26 +30,3 @@
   </section>
 </template>
 
-<script setup lang="ts">
-import { useForm } from '@/composables/useForm'
-import Input from '@/components/ui/Input.vue'
-import Button from '@/components/ui/Button.vue'
-import Modal from '@/components/ui/Modal.vue'
-
-const {
-  form,
-  errors,
-  touched,
-  isSubmitting,
-  isSubmitted,
-  submitError,
-  isFormValid,
-  updateField,
-  markFieldAsTouched,
-  submitForm
-} = useForm()
-
-const handleSubmit = async () => {
-  await submitForm()
-}
-</script>
