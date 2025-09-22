@@ -29,10 +29,10 @@
                 </tr>
                 <tr class="hover:bg-gray-50 transition-colors duration-150">
                   <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                    拠点・勤務形態
+                    案件対応
                   </td>
                   <td class="px-6 py-4 text-sm text-gray-700">
-                    宮城県仙台市拠点、フルリモート・出張対応も相談次第で可能です
+                    宮城県仙台市が拠点ですがフルリモート・出張対応も可能です
                   </td>
                 </tr>
               </tbody>
