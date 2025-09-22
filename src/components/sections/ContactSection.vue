@@ -13,9 +13,86 @@
         </div>
       </ScrollReveal>
 
+      <!-- 対応方法・拠点情報テーブル -->
+      <ScrollReveal animation="rise" :delay="200">
+        <div class="mt-12 bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+          <div class="overflow-x-auto">
+            <table class="min-w-full divide-y divide-gray-200">
+              <tbody class="bg-white divide-y divide-gray-200">
+                <tr class="hover:bg-gray-50 transition-colors duration-150">
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    Web面談可能
+                  </td>
+                  <td class="px-6 py-4 text-sm text-gray-700">
+                    Google Meet、Microsoft Teams、Zoom での打ち合わせが可能です
+                  </td>
+                </tr>
+                <tr class="hover:bg-gray-50 transition-colors duration-150">
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    拠点・勤務形態
+                  </td>
+                  <td class="px-6 py-4 text-sm text-gray-700">
+                    宮城県仙台市拠点、フルリモート・出張対応も相談次第で可能です
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </ScrollReveal>
+
+      <!-- 主なサービス見出し -->
+      <ScrollReveal animation="rise" :delay="350">
+        <div class="mt-8 mb-4">
+          <h4 class="text-sm font-medium text-gray-600 text-center">主なサービス</h4>
+        </div>
+      </ScrollReveal>
+
+      <!-- サービス内容 - 横並び4つのテーブル -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <ScrollReveal animation="rise" :delay="400">
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+            <div class="p-6 text-center">
+              <h4 class="text-sm font-medium text-gray-900">新規システム開発</h4>
+            </div>
+          </div>
+        </ScrollReveal>
+        
+        <ScrollReveal animation="rise" :delay="500">
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+            <div class="p-6 text-center">
+              <h4 class="text-sm font-medium text-gray-900">既存システム保守</h4>
+            </div>
+          </div>
+        </ScrollReveal>
+        
+        <ScrollReveal animation="rise" :delay="600">
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+            <div class="p-6 text-center">
+              <h4 class="text-sm font-medium text-gray-900">システム運用</h4>
+            </div>
+          </div>
+        </ScrollReveal>
+        
+        <ScrollReveal animation="rise" :delay="700">
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+            <div class="p-6 text-center">
+              <h4 class="text-sm font-medium text-gray-900">新規機能実装</h4>
+            </div>
+          </div>
+        </ScrollReveal>
+      </div>
+
+      <!-- お問い合わせ前のメッセージ -->
+      <ScrollReveal animation="rise" :delay="750">
+        <div class="mt-12 text-center">
+          <p class="text-lg text-gray-700 font-medium">まずはご気軽にご相談ください</p>
+        </div>
+      </ScrollReveal>
+
       <!-- お問い合わせフォームへのリンクボタン -->
-      <ScrollReveal animation="scale" :delay="200">
-        <div class="mt-8 flex justify-center">
+      <ScrollReveal animation="scale" :delay="800">
+        <div class="mt-6 flex justify-center">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSesKKFAcHuWfMKqHQC1t67bbcPuRoFv4vlmq3C5NqIEuS7unA/viewform?usp=header"
             target="_blank"
