@@ -4,16 +4,17 @@
 
     <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <div class="animate-fade-in">
-        <h1 class="text-6xl font-bold text-gray-900 mb-6">
+        <h1 class="text-6xl font-bold text-gray-900 mb-4">
           <span class="bg-gradient-to-r from-gray-700 to-gray-900 bg-clip-text text-transparent">
             JIN KUROKI
           </span>
         </h1>
 
-        <p class="text-2xl text-gray-600 mb-12 max-w-2xl mx-auto animate-slide-up" style="animation-delay: 0.2s;">
-          東北で活動するフロントエンドエンジニア
+        <p class="text-xl text-gray-500 mb-6 animate-slide-up" style="animation-delay: 0.1s;">
+          テクノロジーを身近に
         </p>
 
+        <br>
         <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up" style="animation-delay: 0.6s;">
           <button
             class="px-8 py-4 bg-gray-800 hover:bg-gray-900 text-white font-medium rounded-lg transition-colors duration-200"

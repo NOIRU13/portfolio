@@ -18,19 +18,9 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue'),
     },
     {
-      path: '/contact',
-      name: 'contact',
-      component: () => import('../views/ContactView.vue'),
-    },
-    {
-      path: '/contact/success',
-      name: 'contact-success',
-      component: () => import('../views/ContactSuccessView.vue'),
-    },
-    {
-      path: '/contact/error',
-      name: 'contact-error',
-      component: () => import('../views/ContactErrorView.vue'),
+      path: '/privacy-policy',
+      name: 'privacy-policy',
+      component: () => import('../views/PrivacyPolicyView.vue'),
     },
   ],
 })

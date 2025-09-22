@@ -17,7 +17,7 @@
               v-for="item in navigationItems"
               :key="item.href"
               :href="item.href"
-              @click.prevent="handleNavigation(item)"
+              @click.prevent="scrollToSection(item.href.substring(1))"
               class="text-gray-300 hover:text-white text-sm font-medium transition-colors duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2"
               :class="{ 'text-white font-semibold': item.active }"
             >
@@ -56,33 +56,15 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
 import type { NavigationItem } from '@/types'
 import githubIcon from '@/assets/github-mark.png'
 import qiitaIcon from '@/assets/qiita-icon.png'
 
-const route = useRoute()
-const router = useRouter()
-
-const navigationItems = computed((): NavigationItem[] => {
-  if (route.path.startsWith('/contact')) {
-    return [{ label: 'Home', href: '/' }]
-  }
-  return [
-    { label: 'About', href: '#about' },
-    { label: 'Skills', href: '#skills' },
-    { label: 'Contact', href: '#contact' }
-  ]
-})
-
-const handleNavigation = (item: NavigationItem) => {
-  if (item.href === '/') {
-    router.push('/')
-  } else {
-    scrollToSection(item.href.substring(1))
-  }
-}
+const navigationItems: NavigationItem[] = [
+  { label: 'About', href: '#about' },
+  { label: 'Skills', href: '#skills' },
+  { label: 'Contact', href: '#contact' }
+]
 
 const scrollToSection = (sectionId: string) => {
   const element = document.getElementById(sectionId)

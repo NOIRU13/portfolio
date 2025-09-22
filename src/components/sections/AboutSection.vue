@@ -6,7 +6,8 @@
           <div class="text-center lg:text-left">
             <h2 class="text-base text-gray-600 font-semibold tracking-wide uppercase">About</h2>
             <h3 class="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl">
-              東北で活動するフロントエンドエンジニア
+              地元と共に生きる<br>
+              東北在住のWebエンジニア
             </h3>
             <div class="mt-6 text-lg text-gray-500 space-y-6">
               <p>
@@ -52,7 +53,7 @@
           </h3>
           <div class="mt-6 max-w-3xl mx-auto text-lg text-gray-500 space-y-6">
             <p>
-              最新AI技術を活用し、従来の開発手法を革新します。
+              時代はAI駆動開発へ　最先端の技術でアイディアを実現可能なものへ
             </p>
 
             <div class="grid md:grid-cols-2 gap-8 mt-8 text-left">
@@ -72,7 +73,7 @@
             </div>
 
             <p class="mt-8 text-center italic">
-              技術の進歩と共に、常に最適なソリューションを提供し続けます。
+              AI駆動開発により、プロダクト案を低コストで実現可能に
             </p>
           </div>
         </div>
@@ -81,7 +82,7 @@
       <!-- Key principles -->
       <div class="mt-16">
         <div class="text-center mb-12">
-          <h3 class="text-2xl font-bold text-gray-900">開発における重要な価値観</h3>
+          <h3 class="text-2xl font-bold text-gray-900">開発におけるポリシー</h3>
         </div>
 
         <div class="grid md:grid-cols-3 gap-6">
