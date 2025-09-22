@@ -49,4 +49,91 @@ body {
 
 .adaptive-border {
   @apply border-gray-200 dark:border-gray-700;
+}/*
+ Scroll animations */
+.scroll-animate {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-animate.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scroll-animate-delay-100 {
+  transition-delay: 100ms;
+}
+
+.scroll-animate-delay-200 {
+  transition-delay: 200ms;
+}
+
+.scroll-animate-delay-300 {
+  transition-delay: 300ms;
+}
+
+.scroll-animate-delay-400 {
+  transition-delay: 400ms;
+}
+
+.scroll-animate-fade {
+  opacity: 0;
+  transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-animate-fade.visible {
+  opacity: 1;
+}
+
+.scroll-animate-slide-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-animate-slide-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.scroll-animate-slide-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-animate-slide-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.scroll-animate-scale {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-animate-scale.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
 }

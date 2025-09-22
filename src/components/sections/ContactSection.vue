@@ -1,16 +1,20 @@
 <template>
   <section id="contact" class="py-16 bg-gray-50">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-12">
-        <h2 class="text-base text-gray-600 font-semibold tracking-wide uppercase">Contact</h2>
-        <h3 class="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl">
-          お問い合わせ
-        </h3>
-        <p class="mt-4 max-w-2xl text-lg text-gray-500 lg:mx-auto">
-          ご相談やご質問がございましたら、お気軽にお問い合わせください
-        </p>
+      <ScrollReveal animation="rise">
+        <div class="text-center mb-12">
+          <h2 class="text-base text-gray-600 font-semibold tracking-wide uppercase">Contact</h2>
+          <h3 class="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl">
+            お問い合わせ
+          </h3>
+          <p class="mt-4 max-w-2xl text-lg text-gray-500 lg:mx-auto">
+            ご相談やご質問がございましたら、お気軽にお問い合わせください
+          </p>
+        </div>
+      </ScrollReveal>
 
-        <!-- お問い合わせフォームへのリンクボタン -->
+      <!-- お問い合わせフォームへのリンクボタン -->
+      <ScrollReveal animation="scale" :delay="200">
         <div class="mt-8 flex justify-center">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSesKKFAcHuWfMKqHQC1t67bbcPuRoFv4vlmq3C5NqIEuS7unA/viewform?usp=header"
@@ -24,9 +28,12 @@
             お問い合わせフォーム
           </a>
         </div>
-      </div>
+      </ScrollReveal>
 
     </div>
   </section>
 </template>
 
+<script setup lang="ts">
+import ScrollReveal from '@/components/common/ScrollReveal.vue'
+</script>
