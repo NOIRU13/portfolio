@@ -58,7 +58,7 @@
             </h3>
             <div class="mt-6 max-w-3xl mx-auto text-lg text-gray-500 space-y-6">
               <p>
-                時代はAI駆動開発へ　最先端の技術でアイディアを実現可能なものへ
+                時代はAI駆動開発へ　最先端の技術でアイディアを実現可能に
               </p>
 
               <div class="grid md:grid-cols-2 gap-8 mt-8 text-left">
