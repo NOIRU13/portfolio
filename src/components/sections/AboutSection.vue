@@ -104,7 +104,7 @@
                     </div>
                     <h4 class="text-lg font-semibold text-gray-900 mb-3">効率的な実装</h4>
                     <p class="text-gray-600 text-sm leading-relaxed">
-                      AIによるコーディングで、設計に注力可能に
+                      AIによるコーディングで開発や機能実装を早期実現
                     </p>
                   </div>
                 </div>
