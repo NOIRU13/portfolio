@@ -35,7 +35,7 @@
                         <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
                       </svg>
                     </div>
-                    <p class="text-lg font-semibold text-gray-700">JK</p>
+                    <p class="text-lg font-semibold text-gray-700">Jin Kuroki</p>
                     <p class="text-sm text-gray-500">Frontend Engineer</p>
                   </div>
                 </div>
