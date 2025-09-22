@@ -4,7 +4,7 @@ export const debugConfig: DebugConfig = {
   level: import.meta.env.DEV
     ? LogLevel.DEBUG
     : LogLevel.ERROR,
-  enabled: import.meta.env.DEV || import.meta.env.VITE_DEBUG === 'true',
+  enabled: import.meta.env.DEV && import.meta.env.VITE_DEBUG !== 'false',
   namespace: 'noiru',
   timestamp: true,
   colors: true

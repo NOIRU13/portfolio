@@ -70,6 +70,11 @@ class DebugLogger {
       this.logs.shift()
     }
 
+    // 本番環境ではコンソール出力を無効化
+    if (import.meta.env.PROD && !import.meta.env.VITE_DEBUG) {
+      return
+    }
+
     const formattedMessage = this.formatMessage(level, logEntry.namespace, message)
 
     if (this.config.colors && typeof window !== 'undefined') {
@@ -126,31 +131,31 @@ class DebugLogger {
   }
 
   group(label: string): void {
-    if (this.config.enabled) {
+    if (this.config.enabled && (import.meta.env.DEV || import.meta.env.VITE_DEBUG)) {
       console.group(label)
     }
   }
 
   groupEnd(): void {
-    if (this.config.enabled) {
+    if (this.config.enabled && (import.meta.env.DEV || import.meta.env.VITE_DEBUG)) {
       console.groupEnd()
     }
   }
 
   time(label: string): void {
-    if (this.config.enabled) {
+    if (this.config.enabled && (import.meta.env.DEV || import.meta.env.VITE_DEBUG)) {
       console.time(label)
     }
   }
 
   timeEnd(label: string): void {
-    if (this.config.enabled) {
+    if (this.config.enabled && (import.meta.env.DEV || import.meta.env.VITE_DEBUG)) {
       console.timeEnd(label)
     }
   }
 
   table(data: unknown): void {
-    if (this.config.enabled && this.shouldLog(LogLevel.DEBUG)) {
+    if (this.config.enabled && this.shouldLog(LogLevel.DEBUG) && (import.meta.env.DEV || import.meta.env.VITE_DEBUG)) {
       console.table(data)
     }
   }

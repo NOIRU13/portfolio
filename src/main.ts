@@ -13,11 +13,13 @@ debug.updateConfig({
   level: getDebugLevel()
 })
 
-debug.info('Application starting', {
-  environment: import.meta.env.MODE,
-  debugLevel: getDebugLevel(),
-  debugEnabled: debugConfig.enabled
-})
+if (import.meta.env.DEV) {
+  debug.info('Application starting', {
+    environment: import.meta.env.MODE,
+    debugLevel: getDebugLevel(),
+    debugEnabled: debugConfig.enabled
+  })
+}
 
 const app = createApp(App)
 
@@ -26,4 +28,6 @@ app.use(router)
 
 app.mount('#app')
 
-debug.info('Application mounted successfully')
+if (import.meta.env.DEV) {
+  debug.info('Application mounted successfully')
+}
