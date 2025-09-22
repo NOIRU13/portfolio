@@ -75,7 +75,7 @@
                   <div>
                     <h4 class="text-xl font-semibold text-gray-900 mb-3">無限の可能性</h4>
                     <p class="text-gray-600">
-                      AI駆動により、複雑なアイデアも効率的に実現できます。
+                      AI駆動により、複雑なアイデアも効率的に実装できます。
                     </p>
                   </div>
                 </ScrollReveal>
