@@ -62,7 +62,7 @@
 
             <!-- Bordered Feature Cards -->
             <div class="grid md:grid-cols-3 gap-6 mt-12 max-w-5xl mx-auto">
-              <ScrollReveal animation="slide-up" :delay="200">
+              <ScrollReveal animation="rise" :delay="200">
                 <div class="border-2 border-gray-300 rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow duration-300">
                   <div class="text-center">
                     <div class="w-12 h-12 mx-auto mb-4 bg-blue-100 rounded-full flex items-center justify-center">
@@ -78,7 +78,7 @@
                 </div>
               </ScrollReveal>
 
-              <ScrollReveal animation="slide-up" :delay="300">
+              <ScrollReveal animation="rise" :delay="300">
                 <div class="border-2 border-gray-300 rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow duration-300">
                   <div class="text-center">
                     <div class="w-12 h-12 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center">
@@ -94,7 +94,7 @@
                 </div>
               </ScrollReveal>
 
-              <ScrollReveal animation="slide-up" :delay="400">
+              <ScrollReveal animation="rise" :delay="400">
                 <div class="border-2 border-gray-300 rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow duration-300">
                   <div class="text-center">
                     <div class="w-12 h-12 mx-auto mb-4 bg-purple-100 rounded-full flex items-center justify-center">
@@ -127,7 +127,7 @@
 
             <!-- Bordered Feature Cards -->
             <div class="grid md:grid-cols-3 gap-6 mt-12 max-w-5xl mx-auto">
-              <ScrollReveal animation="slide-up" :delay="200">
+              <ScrollReveal animation="rise" :delay="200">
                 <div class="border-2 border-gray-300 rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow duration-300">
                   <div class="text-center">
                     <div class="w-12 h-12 mx-auto mb-4 bg-orange-100 rounded-full flex items-center justify-center">
@@ -143,7 +143,7 @@
                 </div>
               </ScrollReveal>
 
-              <ScrollReveal animation="slide-up" :delay="300">
+              <ScrollReveal animation="rise" :delay="300">
                 <div class="border-2 border-gray-300 rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow duration-300">
                   <div class="text-center">
                     <div class="w-12 h-12 mx-auto mb-4 bg-red-100 rounded-full flex items-center justify-center">
@@ -159,7 +159,7 @@
                 </div>
               </ScrollReveal>
 
-              <ScrollReveal animation="slide-up" :delay="400">
+              <ScrollReveal animation="rise" :delay="400">
                 <div class="border-2 border-gray-300 rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow duration-300">
                   <div class="text-center">
                     <div class="w-12 h-12 mx-auto mb-4 bg-indigo-100 rounded-full flex items-center justify-center">
