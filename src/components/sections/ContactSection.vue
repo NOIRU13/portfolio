@@ -31,7 +31,7 @@
                     </div>
                   </td>
                   <td class="px-6 py-4 text-sm text-gray-700">
-                    Google Meet、Microsoft Teams、Zoom での打ち合わせが可能です
+                    Google Meet、Microsoft Teams、Zoom での打ち合わせをご用意しております
                   </td>
                 </tr>
                 <tr class="hover:bg-gray-50 transition-colors duration-150">
