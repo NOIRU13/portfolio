@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Custom global styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+/* Custom scroll behavior */
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+/* Custom backdrop blur */
+.backdrop-blur-apple {
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+}
+
+/* Text rendering optimization */
+.text-render-optimized {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Focus ring utilities */
+.focus-ring {
+  @apply focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2;
+}
+
+/* Adaptive colors */
+.adaptive-bg {
+  @apply bg-white dark:bg-gray-900;
+}
+
+.adaptive-text {
+  @apply text-gray-900 dark:text-white;
+}
+
+.adaptive-text-secondary {
+  @apply text-gray-600 dark:text-gray-300;
+}
+
+.adaptive-border {
+  @apply border-gray-200 dark:border-gray-700;
+}
