@@ -8,7 +8,7 @@
             to="/"
             class="text-lg font-bold text-white hover:text-gray-200 transition-colors duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2"
           >
-            JIN KUROKI
+            DAN KUROKI
           </router-link>
         </div>
 

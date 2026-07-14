@@ -3,7 +3,7 @@
     <div class="max-w-6xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-6">
         <p class="text-sm text-gray-600">
-          &copy; {{ currentYear }} JIN KUROKI. All rights reserved.
+          &copy; {{ currentYear }} DAN KUROKI. All rights reserved.
         </p>
         <router-link
           to="/privacy-policy"

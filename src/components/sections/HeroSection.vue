@@ -7,7 +7,7 @@
         <ScrollReveal animation="fade">
           <h1 class="text-6xl font-bold text-gray-900 mb-4">
             <span class="bg-gradient-to-r from-gray-700 to-gray-900 bg-clip-text text-transparent">
-              JIN KUROKI
+              DAN KUROKI
             </span>
           </h1>
         </ScrollReveal>

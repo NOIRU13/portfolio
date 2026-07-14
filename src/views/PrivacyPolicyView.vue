@@ -17,7 +17,7 @@
             <section>
               <h2 class="text-2xl font-semibold text-gray-900 mb-4">基本方針</h2>
               <p class="text-gray-700 leading-relaxed">
-                JIN KUROKI（以下「当サイト」）は、ユーザーの個人情報の保護を重要視し、個人情報保護法を遵守して適切に取り扱います。
+                黒木段（DAN KUROKI、以下「当サイト」）は、ユーザーの個人情報の保護を重要視し、個人情報保護法を遵守して適切に取り扱います。
               </p>
             </section>
 

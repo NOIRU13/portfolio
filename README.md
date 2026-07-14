@@ -1,6 +1,6 @@
-# KJ Tech Portfolio
+# DAN KUROKI Portfolio
 
-システムエンジニア「KJ Tech」のポートフォリオサイト。Vue 3 + TypeScript + Tailwind CSSで構築されたモダンなSPA（Single Page Application）です。
+Webエンジニア「黒木段（DAN KUROKI）」のポートフォリオサイト。Vue 3 + TypeScript + Tailwind CSSで構築されたモダンなSPA（Single Page Application）です。
 
 ## 特徴
 
